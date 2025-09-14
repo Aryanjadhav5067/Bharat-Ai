@@ -22,7 +22,7 @@ async function sendMessage(userMessage) {
   setInputEnabled(false);
 
   try {
-    const response = await fetch("https://YOUR_BACKEND_URL/chat", {
+    const response = await fetch("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", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ message: userMessage }),
