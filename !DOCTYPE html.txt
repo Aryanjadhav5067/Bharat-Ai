@@ -10,11 +10,11 @@
 
 <div class="chat-container" role="main" aria-label="Bharat AI chatbot interface">
   <header class="header">Bharat AI Chatbot</header>
-
+  
   <section class="messages" id="messages" aria-live="polite" aria-relevant="additions">
     <!-- Messages will appear here -->
   </section>
-
+  
   <form class="input-container" id="chat-form" aria-label="Send message form">
     <input id="chat-input" type="text" autocomplete="off" placeholder="Ask Bharat AI..." aria-label="Chat input" required />
     <button type="submit" aria-label="Send message">Send</button>
